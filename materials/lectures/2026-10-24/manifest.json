@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-24",
+  "baseline": "7f8a6722ecdd7735af4bf6bceebe7ab8c698f036",
+  "ids": [
+    "lecture-20261024-1",
+    "lecture-20261024-2",
+    "lecture-20261024-3",
+    "lecture-20261024-4",
+    "lecture-20261024-5",
+    "lecture-20261024-6",
+    "lecture-20261024-7",
+    "lecture-20261024-8",
+    "lecture-20261024-9",
+    "lecture-20261024-10",
+    "lecture-20261024-11",
+    "lecture-20261024-12",
+    "supplement-20261024-1",
+    "supplement-20261024-2",
+    "supplement-20261024-3",
+    "supplement-20261024-4"
+  ],
+  "source": "source-notes.md",
+  "supplement": "supplement-notes.md"
+}

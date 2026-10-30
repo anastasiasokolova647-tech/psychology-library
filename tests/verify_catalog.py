@@ -18,9 +18,9 @@ def catalog(page):
 page = Path('index.html').read_text()
 previous = subprocess.check_output(['git', 'show', BASELINE + ':index.html']).decode()
 old, current = catalog(previous), catalog(page)
-assert len(old) == 303 and len(current) == 304
+assert len(old) == 303 and len(current) == 320
 assert len({d['topic'] for d in current}) == 25
-assert len({d['id'] for d in current}) == 304
+assert len({d['id'] for d in current}) == 320
 by_id = {d['id']: d for d in current}
 for doc in old:
     assert by_id[doc['id']] == doc, 'Changed or missing original: ' + doc['id']
@@ -57,6 +57,6 @@ for script in scripts:
         file.write(script); file.flush()
         subprocess.run(['node', '--check', file.name], check=True)
 subprocess.run(['node', '--check', 'sw.js'], check=True)
-print('PASS: 303 original records identical (including full HTML text, IDs and search); 25 topics; 304 unique records.')
+print('PASS: 303 original records identical (including full HTML text, IDs and search); 25 topics; 320 unique records.')
 print('PASS: every exercise line preserved; original Markdown unchanged; all 6 search terms; status; local links; JS syntax.')
 print('Original content SHA256:', hashlib.sha256(''.join(d['content'] for d in old).encode()).hexdigest())
