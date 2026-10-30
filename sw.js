@@ -1,6 +1,6 @@
-const CACHE = 'psychology-library-v2-restored-304';
+const CACHE = 'psychology-library-v3-client-requests-304';
 const BASE = new URL('./', self.location.href);
-const ASSETS = ['./', './index.html', './icon.svg', './manifest.webmanifest',
+const ASSETS = ['./', './index.html', './client-requests.js', './search.js', './icon.svg', './manifest.webmanifest',
   './materials/techniques/Озеро та сміття.md'].map(path => new URL(path, BASE).href);
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
@@ -26,7 +26,7 @@ self.addEventListener('fetch', event => {
       const saved = await cache.match(event.request);
       if (saved) return saved;
       if (event.request.mode === 'navigate') {
-        const page = await cache.match(new URL('./index.html', BASE).href);
+        const page = await cache.match(new URL('./index.html', './client-requests.js', './search.js', BASE).href);
         if (page) return page;
       }
       return Response.error();
