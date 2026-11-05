@@ -1,0 +1,16 @@
+{
+  "date_from_filename": "2026-10-31",
+  "new_cards": 6,
+  "sources": [
+    {
+      "filename": "20261031_114435 (transcribed on 04-Nov-2026 23-41-19)(1).txt",
+      "sha256": "ddfa48eb23c129eaa4e34634c5c4ffe961ed76312b04bacb6fabeeb5107730d7",
+      "notes": "notes-114435.md"
+    },
+    {
+      "filename": "20261031_123009 (transcribed on 05-Nov-2026 08-59-58).txt",
+      "sha256": "5f37d4e1a26991986dc91da7ddc9d625a16a5cdba0332fa245bbb51d7546411c",
+      "notes": "notes-123009.md"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date_from_filename": "2026-10-28",
+  "baseline": "c1640c4c20a203d9b61453846482560fa8d73a8c",
+  "previous_cards": 320,
+  "new_cards": 12,
+  "policy": "Тематичні конспекти; персональні подробиці й побутові відступи опущено. Оригінальні розшифровки не опубліковано. Зовнішні джерела відокремлено від змісту заняття.",
+  "sources": [
+    {
+      "filename": "20261028_132804 (transcribed on 30-Oct-2026 21-01-59).txt",
+      "sha256": "48007c34f1c87c08dd6d64c8c5b203573d7decd74b5b85309ab15fb237079a89",
+      "notes": "notes-132804.md",
+      "cards": [
+        "lecture-20261028-1"
+      ]
+    },
+    {
+      "filename": "20261028_133001 (transcribed on 30-Oct-2026 21-44-39).txt",
+      "sha256": "64b723760f21c5e02ca036fbebee1f39a75848d1ba93e5dd071c1e7e40a5a099",
+      "notes": "notes-133001.md",
+      "cards": [
+        "lecture-20261028-2",
+        "lecture-20261028-3",
+        "lecture-20261028-4",
+        "lecture-20261028-5",
+        "lecture-20261028-6"
+      ]
+    },
+    {
+      "filename": "20261028_142810 (transcribed on 30-Oct-2026 20-59-37).txt",
+      "sha256": "29b97d47f4cdd0b1908a7eddab536d49f1deb75e7f8b67da9644e08b34f5df09",
+      "notes": "notes-142810.md",
+      "cards": [
+        "lecture-20261028-7",
+        "lecture-20261028-8",
+        "lecture-20261028-9",
+        "lecture-20261028-10",
+        "lecture-20261028-11",
+        "lecture-20261028-12"
+      ]
+    }
+  ]
+}
