@@ -4,7 +4,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 parse=lambda s:json.loads(re.search(r'const docs=(.*?);\nconst topics=',s,re.S)[1])
 docs=parse(Path('index.html').read_text());old=parse(subprocess.check_output(['git','show','c1640c4:index.html'],text=True))
-assert docs[:320]==old and len(docs)==358
+assert docs[:320]==old and len(docs)==365
 class Reader(HTMLParser):
  def __init__(self):super().__init__();self.text=[];self.headers=[];self.heading=False
  def handle_starttag(self,t,a):
@@ -15,7 +15,7 @@ class Reader(HTMLParser):
   self.text.append(s)
   if self.heading:self.headers.append(s)
 for d in docs[320:]:
- date={'20261028':'2026-10-28','20261031':'2026-10-31','20261104':'2026-11-04'}[d['id'].split('-')[1]]
+ date={'20261028':'2026-10-28','20261031':'2026-10-31','20261104':'2026-11-04','20261105':'2026-11-05'}[d['id'].split('-')[1]]
  md=Path('materials/lectures')/date/(d['id']+'.md')
  body=md.read_text().split('\n\n',1)[1].split('\n\n---')[0]
  p=Reader();p.feed(d['content']);text=' '.join(' '.join(p.text).split())
@@ -34,4 +34,4 @@ sw=Path('sw.js').read_text()
 for path in re.findall(r'[\'\"](\./[^\'\"]+)[\'\"]',sw):
  if path not in ('./',):assert Path(path).exists(),path
 assert "new URL('./index.html', BASE)" in sw
-print('PASS: original 320 records unchanged; 38 full-text cards; source coverage; duplicate detected; headings, downloads and cache assets valid.')
+print('PASS: original 320 records unchanged; 45 full-text cards; source coverage; duplicate detected; headings, downloads and cache assets valid.')

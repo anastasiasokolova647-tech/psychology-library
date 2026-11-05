@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-05",
+  "cards": [
+    "lecture-20261105-1",
+    "lecture-20261105-2",
+    "lecture-20261105-3",
+    "lecture-20261105-4",
+    "lecture-20261105-5",
+    "lecture-20261105-6",
+    "lecture-20261105-7"
+  ],
+  "sources": [
+    {
+      "filename": "20261105_083517 (transcribed on 05-Nov-2026 21-30-51).txt",
+      "sha256": "613331071a9cda5fb2de889072e128cb2f5f2bf0e3a0afb5f0a52913d80831fa",
+      "cards": [
+        "lecture-20261105-1",
+        "lecture-20261105-2"
+      ]
+    },
+    {
+      "filename": "20261105_093018 (transcribed on 05-Nov-2026 20-26-59).txt",
+      "sha256": "c823b69e7491739acdbf94d7c1978e06f360b35161050b6aef80bdc0d424d357",
+      "cards": [
+        "lecture-20261105-2"
+      ]
+    },
+    {
+      "filename": "20261105_100234 (transcribed on 05-Nov-2026 20-08-55)(1).txt",
+      "sha256": "fb0178c2f8a0012665dd3083b47f07f0b1a9b442882357f3d0276f99a2201872",
+      "cards": [
+        "lecture-20261105-1",
+        "lecture-20261105-3",
+        "lecture-20261105-4",
+        "lecture-20261105-5",
+        "lecture-20261105-6",
+        "lecture-20261105-7"
+      ]
+    },
+    {
+      "filename": "20261105_100234 (transcribed on 05-Nov-2026 20-08-55).txt",
+      "sha256": "fb0178c2f8a0012665dd3083b47f07f0b1a9b442882357f3d0276f99a2201872",
+      "cards": [
+        "lecture-20261105-1",
+        "lecture-20261105-3",
+        "lecture-20261105-4",
+        "lecture-20261105-5",
+        "lecture-20261105-6",
+        "lecture-20261105-7"
+      ],
+      "duplicate_of": "20261105_100234 (transcribed on 05-Nov-2026 20-08-55)(1).txt"
+    }
+  ],
+  "selection": "Only source-supported information; no public-figure diagnoses or unverified anecdotes."
+}
