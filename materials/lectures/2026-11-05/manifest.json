@@ -7,7 +7,11 @@
     "lecture-20261105-4",
     "lecture-20261105-5",
     "lecture-20261105-6",
-    "lecture-20261105-7"
+    "lecture-20261105-7",
+    "lecture-20261105-8",
+    "lecture-20261105-9",
+    "lecture-20261105-10",
+    "lecture-20261105-11"
   ],
   "sources": [
     {
@@ -49,6 +53,16 @@
         "lecture-20261105-7"
       ],
       "duplicate_of": "20261105_100234 (transcribed on 05-Nov-2026 20-08-55)(1).txt"
+    },
+    {
+      "filename": "20261105_115903 (transcribed on 05-Nov-2026 23-01-18).txt",
+      "sha256": "6446281c623f365777ffead9d075d583120d1d5914d6a355cbcc8429b4e909b3",
+      "cards": [
+        "lecture-20261105-8",
+        "lecture-20261105-9",
+        "lecture-20261105-10",
+        "lecture-20261105-11"
+      ]
     }
   ],
   "selection": "Only source-supported information; no public-figure diagnoses or unverified anecdotes."
