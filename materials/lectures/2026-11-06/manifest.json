@@ -1,0 +1,41 @@
+{
+  "baseline_count": 369,
+  "total": 374,
+  "baseline_sha256": "c00196b7bab9cb328cef01f3a231a89ea078cdfd4c150194dbb15f8882be649d",
+  "added": [
+    {
+      "section": "Пам’ять: основні процеси",
+      "id": "lecture-20261106-1",
+      "topicid": 10
+    },
+    {
+      "section": "Види пам’яті",
+      "id": "lecture-20261106-2",
+      "topicid": 10
+    },
+    {
+      "section": "Мнемотехніки",
+      "id": "lecture-20261106-3",
+      "topicid": 18
+    },
+    {
+      "section": "Навчальні вправи з психодіагностики пам’яті",
+      "id": "lecture-20261106-4",
+      "topicid": 9
+    },
+    {
+      "section": "Розлади особистості: традиційні кластери",
+      "id": "lecture-20261106-5",
+      "topicid": 10
+    }
+  ],
+  "duplicate": {
+    "section": "Психоз: визначення й прояви",
+    "existing": [
+      "lecture-20261105-4",
+      "lecture-20261105-6",
+      "lecture-20261105-8",
+      "lecture-20261105-9"
+    ]
+  }
+}
