@@ -1,0 +1,17 @@
+{
+  "baseline_count": 374,
+  "total": 376,
+  "baseline_sha256": "d36ea17716090350e290c9e8242f799d71a020630fcb25cfda93b966a7d4bf3e",
+  "cards": [
+    {
+      "id": "lecture-20261107-1",
+      "path": "materials/lectures/2026-11-07/lecture-notes.md",
+      "sha256": "25cc67b6cc1ae3e7a6b53d14497e20559d4219a681e80a7f5a357d09745518ff"
+    },
+    {
+      "id": "lecture-20261107-2",
+      "path": "materials/lectures/2026-11-07/comparison-lec-pcl-ies.md",
+      "sha256": "b374f00345443677387970644443de92ebc425cdc7ffb4b24be3b230afe8246d"
+    }
+  ]
+}
