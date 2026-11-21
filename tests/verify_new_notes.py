@@ -4,7 +4,7 @@ from pathlib import Path
 from html.parser import HTMLParser
 parse=lambda s:json.loads(re.search(r'const docs=(.*?);\nconst topics=',s,re.S)[1])
 docs=parse(Path('index.html').read_text());old=parse(subprocess.check_output(['git','show','c1640c4:index.html'],text=True))
-assert docs[:320]==old and len(docs)==376
+assert docs[:320]==old and len(docs)==380
 class Reader(HTMLParser):
  def __init__(self):super().__init__();self.text=[];self.headers=[];self.heading=False
  def handle_starttag(self,t,a):

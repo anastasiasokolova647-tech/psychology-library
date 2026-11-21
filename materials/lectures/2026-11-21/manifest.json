@@ -1,0 +1,31 @@
+{
+  "baseline_commit": "e0d49cd2fb729304c857c2538399c440a3ed47d3",
+  "baseline_count": 376,
+  "total_count": 380,
+  "added": [
+    {
+      "id": "lecture-20261121-1",
+      "path": "materials/lectures/2026-11-21/cards/rehabilitation-and-support.md",
+      "topicid": 2,
+      "sha256": "c64863950e5f1fbccd07dc4648aa9951ffd1c724501d992101d58683dc7cc035"
+    },
+    {
+      "id": "lecture-20261121-2",
+      "path": "materials/lectures/2026-11-21/cards/needs-and-plan.md",
+      "topicid": 10,
+      "sha256": "d43e4841a444c664c352881127882ab945a581da47cd74be6c51cf4ed7cfa540"
+    },
+    {
+      "id": "lecture-20261121-3",
+      "path": "materials/lectures/2026-11-21/cards/peer-support-prosthetics.md",
+      "topicid": 19,
+      "sha256": "156ad9e7c67a6065f7242d0ddac3fd4dcf5df6c1a343ef22082d4b2a7bb521c0"
+    },
+    {
+      "id": "lecture-20261121-4",
+      "path": "materials/lectures/2026-11-21/cards/legal-map.md",
+      "topicid": 14,
+      "sha256": "7cb2981c5e6d2eb740614a66c74fc397db911d9e476daee2089c65dd44abf3b7"
+    }
+  ]
+}

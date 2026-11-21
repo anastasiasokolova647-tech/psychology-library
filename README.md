@@ -63,3 +63,20 @@
 7 перевірених тематичних карток із трьох унікальних записів. Разом 365 матеріалів, 25 розділів. [Повний конспект і джерела](materials/lectures/2026-11-05/README.md).
 
 Продовження 115903: 4 нові картки — симптоми, уточнення діагностики, командна допомога, навчальний кейс. Разом 369 матеріалів. Попередні 365 збережено без змін.
+
+## Лекція 21.11.2026: психологічна реабілітація
+
+**Поточний каталог: 380 матеріалів у 25 розділах.** Додано 4 картки без повторів; усі 376 попередніх збережено без змін. [Конспект](materials/lectures/2026-11-21/psychological-rehabilitation.md), [нові картки, перевірки та зіставлення](materials/lectures/2026-11-21/integration-report.md), [правова перевірка та її обмеження](materials/lectures/2026-11-21/legal-verification.md). Останні редакції нормативних актів підтверджено не повністю; невстановлене явно позначено.
+
+Перевірки з кореня репозиторію:
+
+```sh
+python3 tests/verify_catalog.py
+python3 tests/verify_lectures.py
+python3 tests/verify_new_notes.py
+python3 tests/verify_nov06.py
+python3 tests/verify_nov07.py
+python3 tests/verify_nov21.py
+node tests/verify_requests.cjs
+node tests/verify_editorial.cjs
+```
