@@ -1,0 +1,220 @@
+{
+  "baseline_commit": "72860adda45f9d846c17002d4d93ff60160686d6",
+  "baseline_count": 382,
+  "sources": [
+    {
+      "id": "nov26-note-1",
+      "path": "study/notes/2026-11-19-thinking.md",
+      "sha256": "d560194158db48770576d51f7323104b129019cc26132a55a0d56d7efd4f16fc"
+    },
+    {
+      "id": "nov26-note-2",
+      "path": "study/notes/2026-11-21-rehabilitation.md",
+      "sha256": "242521a6972eb5a103116cf41efc28c2daff80ac1aa96bbf40311902fdcc199a"
+    },
+    {
+      "id": "nov26-note-3",
+      "path": "study/notes/2026-11-21-military-support.md",
+      "sha256": "8de91035eddcd0b96e9c175310b5527628baad8e54c0a308fecc241f1a7596f1"
+    },
+    {
+      "id": "nov26-note-4",
+      "path": "study/notes/2026-11-21-vector.md",
+      "sha256": "789a3146cc7c390aac41bb6371373a1b486fc680d1896570156deefc384a0a99"
+    },
+    {
+      "id": "nov26-note-5",
+      "path": "study/notes/2026-11-grief.md",
+      "sha256": "6646acf3510b932aea9b154b77744230fb44c8be9c84cd4fe5072f978e3b8af2"
+    }
+  ],
+  "added": [
+    {
+      "id": "nov26-knowledge-1",
+      "title": "Мислення",
+      "path": "study/cards/Мислення.md"
+    },
+    {
+      "id": "nov26-knowledge-2",
+      "title": "Операції мислення",
+      "path": "study/cards/Операції мислення.md"
+    },
+    {
+      "id": "nov26-knowledge-3",
+      "title": "Інтелектуальна лабільність",
+      "path": "study/cards/Інтелектуальна лабільність.md"
+    },
+    {
+      "id": "nov26-knowledge-4",
+      "title": "Нейропсихологічна діагностика",
+      "path": "study/cards/Нейропсихологічна діагностика.md"
+    },
+    {
+      "id": "nov26-knowledge-5",
+      "title": "Психосоціальна підтримка",
+      "path": "study/cards/Психосоціальна підтримка.md"
+    },
+    {
+      "id": "nov26-knowledge-8",
+      "title": "Я-концепція",
+      "path": "study/cards/Я-концепція.md"
+    },
+    {
+      "id": "nov26-knowledge-9",
+      "title": "Самоефективність",
+      "path": "study/cards/Самоефективність.md"
+    },
+    {
+      "id": "nov26-knowledge-11",
+      "title": "Самодисципліна",
+      "path": "study/cards/Самодисципліна.md"
+    },
+    {
+      "id": "nov26-knowledge-12",
+      "title": "Метод швейцарського сиру",
+      "path": "materials/techniques/Метод швейцарського сиру.md"
+    },
+    {
+      "id": "nov26-knowledge-15",
+      "title": "Скорбота",
+      "path": "study/cards/Скорбота.md"
+    },
+    {
+      "id": "nov26-knowledge-16",
+      "title": "Модель подвійного процесу горювання",
+      "path": "study/cards/Модель подвійного процесу горювання.md"
+    },
+    {
+      "id": "nov26-knowledge-18",
+      "title": "Внутрішній провідник",
+      "path": "materials/techniques/Внутрішній провідник.md"
+    },
+    {
+      "id": "nov26-knowledge-19",
+      "title": "Скринька пам’яті",
+      "path": "materials/techniques/Скринька пам’яті.md"
+    },
+    {
+      "id": "nov26-knowledge-20",
+      "title": "Біографія стосунків",
+      "path": "materials/techniques/Біографія стосунків.md"
+    },
+    {
+      "id": "nov26-knowledge-21",
+      "title": "Вижити — пережити — жити",
+      "path": "study/cards/Вижити — пережити — жити.md"
+    },
+    {
+      "id": "nov26-knowledge-23",
+      "title": "Контейнерування",
+      "path": "study/cards/Контейнерування.md"
+    },
+    {
+      "id": "nov26-knowledge-24",
+      "title": "Психологічна стабілізація",
+      "path": "materials/techniques/Психологічна стабілізація.md"
+    },
+    {
+      "id": "nov26-knowledge-25",
+      "title": "Лист про несказане",
+      "path": "materials/techniques/Лист про несказане.md"
+    },
+    {
+      "id": "nov26-knowledge-26",
+      "title": "Малювання спадщини",
+      "path": "materials/techniques/Малювання спадщини.md"
+    },
+    {
+      "id": "nov26-knowledge-27",
+      "title": "Гумор та емоційна дистанція",
+      "path": "materials/techniques/Гумор та емоційна дистанція.md"
+    }
+  ],
+  "updated": [
+    {
+      "id": "n2-20",
+      "title": "Психологічна реабілітація",
+      "path": "study/cards/Психологічна реабілітація.md"
+    },
+    {
+      "id": "lecture-20261121-1",
+      "title": "Перша психологічна допомога",
+      "path": "study/cards/Перша психологічна допомога.md"
+    },
+    {
+      "id": "n11-4",
+      "title": "Локус контролю",
+      "path": "study/cards/Локус контролю.md"
+    },
+    {
+      "id": "n1-3",
+      "title": "Горе",
+      "path": "study/cards/Горе.md"
+    },
+    {
+      "id": "n1-7",
+      "title": "Втрата",
+      "path": "study/cards/Втрата.md"
+    },
+    {
+      "id": "n4-25",
+      "title": "Триваючі зв’язки",
+      "path": "study/cards/Триваючі зв’язки.md"
+    },
+    {
+      "id": "n1-8",
+      "title": "Розлад тривалого горя",
+      "path": "study/cards/Розлад тривалого горя.md"
+    }
+  ],
+  "aliases": {
+    "Мислення": "nov26-knowledge-1",
+    "Операції мислення": "nov26-knowledge-2",
+    "Інтелектуальна лабільність": "nov26-knowledge-3",
+    "Нейропсихологічна діагностика": "nov26-knowledge-4",
+    "Психосоціальна підтримка": "nov26-knowledge-5",
+    "Психологічна реабілітація": "n2-20",
+    "Перша психологічна допомога": "lecture-20261121-1",
+    "Я-концепція": "nov26-knowledge-8",
+    "Самоефективність": "nov26-knowledge-9",
+    "Локус контролю": "n11-4",
+    "Самодисципліна": "nov26-knowledge-11",
+    "Метод швейцарського сиру": "nov26-knowledge-12",
+    "Горе": "n1-3",
+    "Втрата": "n1-7",
+    "Скорбота": "nov26-knowledge-15",
+    "Модель подвійного процесу горювання": "nov26-knowledge-16",
+    "Триваючі зв’язки": "n4-25",
+    "Внутрішній провідник": "nov26-knowledge-18",
+    "Скринька пам’яті": "nov26-knowledge-19",
+    "Біографія стосунків": "nov26-knowledge-20",
+    "Вижити — пережити — жити": "nov26-knowledge-21",
+    "Розлад тривалого горя": "n1-8",
+    "Контейнерування": "nov26-knowledge-23",
+    "Психологічна стабілізація": "nov26-knowledge-24",
+    "Лист про несказане": "nov26-knowledge-25",
+    "Малювання спадщини": "nov26-knowledge-26",
+    "Гумор та емоційна дистанція": "nov26-knowledge-27",
+    "Пам’ять": "lecture-20261106-2",
+    "Пам'ять": "lecture-20261106-2",
+    "Інтелект": "nov26-knowledge-1",
+    "Психічне здоров’я": "nov26-knowledge-5",
+    "Психічне здоров'я": "nov26-knowledge-5",
+    "Військова психологія": "nov26-note-3",
+    "Професійна етика": "nov26-note-3",
+    "Прокрастинація": "nov26-knowledge-12",
+    "Стабілізація після втрати": "nov26-knowledge-24",
+    "Continuing Bonds — триваючі зв’язки": "n4-25"
+  },
+  "techniques": [
+    "Метод швейцарського сиру",
+    "Внутрішній провідник",
+    "Скринька пам’яті",
+    "Біографія стосунків",
+    "Психологічна стабілізація",
+    "Лист про несказане",
+    "Малювання спадщини",
+    "Гумор та емоційна дистанція"
+  ],
+  "total_count": 407
+}

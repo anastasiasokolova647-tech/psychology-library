@@ -5,7 +5,7 @@ class Text(HTMLParser):
  def __init__(self):super().__init__();self.parts=[]
  def handle_data(self,s):self.parts.append(s)
 page=Path('index.html').read_text();docs=json.loads(re.search(r'const docs=(.*?);\nconst topics=',page,re.S)[1]);m=json.loads(Path('materials/lectures/2026-11-07/manifest.json').read_text())
-assert len(docs)==382 and len({d['topicid'] for d in docs})==25
+assert len(docs)==407 and len({d['topicid'] for d in docs})==25
 assert hashlib.sha256(json.dumps(docs[:374],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseline_sha256']
 for c in m['cards']:
  source=Path(c['path']);assert hashlib.sha256(source.read_bytes()).hexdigest()==c['sha256']
@@ -16,4 +16,4 @@ for c in m['cards']:
   for cell in (line.strip('|').split('|') if line.startswith('|') else [line]):assert re.sub(r'\s+', '', cell) in re.sub(r'\s+', '', text),(c['id'],cell)
  assert c['path'] in d['content'] and './'+c['path'] in Path('sw.js').read_text()
 assert Path('client-requests.js').read_bytes()==Path('client-requests-382.js').read_bytes()
-print('PASS: 374 old cards unchanged; both complete sources preserved; all source text rendered; 382 cards, 25 topics; cache and downloads valid.')
+print('PASS: 374 old cards unchanged; both complete sources preserved; all source text rendered; 407 cards, 25 topics; cache and downloads valid.')

@@ -6,11 +6,11 @@ m=json.loads(Path('study/_work/catalog-nov18.json').read_text())
 def docs(s):return json.loads(re.search(r'const docs=(.*?);\nconst topics=',s,re.S)[1])
 def base(p):return subprocess.check_output(['git','show',m['baseline_commit']+':'+p],text=True)
 page=Path('index.html').read_text();now=docs(page);old=docs(base('index.html'))
-assert len(now)==m['total_count']==382 and len(old)==m['baseline_count']==380
-assert now[:380]==old and len({d['id'] for d in now})==382
+assert len(now)==407 and m['total_count']==382 and len(old)==m['baseline_count']==380
+assert now[:380]==old and len({d['id'] for d in now})==407
 assert {d['topicid']:d['topic'] for d in now}=={d['topicid']:d['topic'] for d in old}
 strip=lambda s:re.sub(r'const docs=.*?;\nconst topics=','const docs=DATA;\nconst topics=',s,flags=re.S)
-assert strip(page)==strip(base('index.html')).replace('380 матеріалів:','382 матеріали:').replace('client-requests-380.js','client-requests-382.js')
+assert strip(page)==strip(base('index.html')).replace('380 матеріалів:','407 матеріалів:').replace('client-requests-380.js','client-requests-382.js')
 class Text(HTMLParser):
  def __init__(self):super().__init__();self.parts=[];self.links=[]
  def handle_data(self,s):self.parts.append(s)
