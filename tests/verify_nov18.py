@@ -9,7 +9,7 @@ page=Path('index.html').read_text();now=docs(page);old=docs(base('index.html'))
 assert len(now)==408 and m['total_count']==382 and len(old)==m['baseline_count']==380
 assert now[:380]==old and len({d['id'] for d in now})==408
 assert {d['topicid']:d['topic'] for d in now}=={d['topicid']:d['topic'] for d in old}
-strip=lambda s:re.sub(r'const docs=.*?;\nconst topics=','const docs=DATA;\nconst topics=',s,flags=re.S)
+strip=lambda s:re.sub(r'const docs=.*?;\nconst topics=','const docs=DATA;\nconst topics=',s.replace('?v=20261127',''),flags=re.S)
 assert strip(page)==strip(base('index.html')).replace('380 матеріалів:','408 матеріалів:').replace('client-requests-380.js','client-requests-382.js')
 class Text(HTMLParser):
  def __init__(self):super().__init__();self.parts=[];self.links=[]
