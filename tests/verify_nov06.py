@@ -4,7 +4,7 @@ from pathlib import Path
 root=Path('materials/lectures/2026-11-06')
 m=json.loads((root/'manifest.json').read_text())
 docs=json.loads(re.search(r'const docs=(.*?);\nconst topics=',Path('index.html').read_text(),re.S)[1])
-assert len(docs)==407 and len({d['topicid'] for d in docs})==25
+assert len(docs)==408 and len({d['topicid'] for d in docs})==25
 assert hashlib.sha256(json.dumps(docs[:369],ensure_ascii=False,sort_keys=True).encode()).hexdigest()==m['baseline_sha256']
 byid={d['id']:d for d in docs};notes=(root/'notes.md').read_text()
 for item in m['added']:
