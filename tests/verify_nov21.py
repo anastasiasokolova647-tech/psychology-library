@@ -20,7 +20,7 @@ assert len({d['title'].casefold() for d in docs[376:380]})==4
 assert not ({d['title'].casefold() for d in docs[376:380]} & {d['title'].casefold() for d in old})
 assert {d['topicid']:d['topic'] for d in docs}=={d['topicid']:d['topic'] for d in old}
 # Outside embedded data, only header count/date and versioned metadata may change.
-strip=lambda s: re.sub(r'const docs=.*?;\nconst topics=', 'const docs=DATA;\nconst topics=',s.replace('?v=20261127',''),flags=re.S)
+strip=lambda s: re.sub(r'const docs=.*?;\nconst topics=', 'const docs=DATA;\nconst topics=',s.replace('?v=20261127','').replace('?v=20261128-issue1',''),flags=re.S)
 expected=strip(baseline('index.html')).replace('376 матеріалів:','408 матеріалів:').replace('04–07.11.2026.','04–07 та 21.11.2026.').replace('client-requests-376.js','client-requests-382.js')
 assert strip(page)==expected, 'Unrelated app or design change'
 source=str(root/'psychological-rehabilitation.md')

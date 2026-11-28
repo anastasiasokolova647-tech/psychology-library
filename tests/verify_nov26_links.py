@@ -12,7 +12,7 @@ class Parser(HTMLParser):
   self.links.extend(v for k,v in attrs if k=='href')
 def norm(x):return re.sub(r'\s+','',html.unescape(x))
 for f in m['sources']+m['added']+m['updated']:
- p=Path(f['path']);md=p.read_text();content=e[f['id']]['content'] if f in m['updated'] else byid[f['id']]['content'];parser=Parser();parser.feed(content);text=norm(' '.join(parser.text))
+ p=Path(f['path']);md=p.read_text();content=e[f['id']]['content'] if f in m['updated'] or f['id']=='nov26-knowledge-3' else byid[f['id']]['content'];parser=Parser();parser.feed(content);text=norm(' '.join(parser.text))
  for line in md.splitlines():
   line=re.sub(r'^#+\s*','',line).replace('[[','').replace(']]','').replace('**','')
   line=re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',line).strip()
